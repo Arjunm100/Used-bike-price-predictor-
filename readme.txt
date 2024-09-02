@@ -1,0 +1,1 @@
+extract "bike_price_pred_model.zip" for the prediction model name "bike_price_pred_model.pkl"

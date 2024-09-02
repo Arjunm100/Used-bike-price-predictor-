@@ -1,0 +1,41 @@
+File name : Used_Bikes.csv 
+ the dataset contain details of used bikes and its curresponding price
+size of data 
+ rows : 32648 
+ columns : 8 
+ total size : 261184
+
+columns in dataset and its datatype:
+
+bike_name(string) : 0 null values found
+discription : name of the bike
+
+price(float64) : 0 null values found
+discription : price of the bike is rupees.
+
+city(string) : 0 null values found
+discription : city where the bike is located
+
+kms_driven(float64) : 0 null values found
+discription : the kilometers driven by the bike
+
+owner(string) : 0 null values found
+discription : ownership status of the bike
+
+age(float64) : 0 null values found
+discription : age of the bike 
+
+power(float64) : 0 null values found
+discription : power of the bike in cc
+
+brand(string) : 0 null values found
+discription : the brand of the bike
+
+Encoding methods:
+
+owner : performed label encoding because less number of categories and ordinal
+brand,city,bike_name : performed binary encoding because of large number of categories and have nominal characteristics.using onehot encoding will increase the dimensionality of the data set.
+
+no outliers found on the data set.
+
+
